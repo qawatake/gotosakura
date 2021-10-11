@@ -21,6 +21,10 @@ func main() {
 	if err != nil {
 		log.Fatalf("getASIN failed: %v", err)
 	}
+	if (asin == "") {
+		fmt.Print("不正なページを開いているようです")
+		return
+	}
 
 	sakuraurl := fmt.Sprintf("https://sakura-checker.jp/search/%v/", asin)
 	alfredjson := NewAlfredJSON(sakuraurl, browser)
