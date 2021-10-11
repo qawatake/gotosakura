@@ -1,0 +1,13 @@
+*
+!.gitignore
+!main.sh
+!go.mod
+!main.go
+!main_test.go
+!appscript
+!appscript/frontmost_appname.scpt
+!appscript/url_from_chrome.scpt
+!appscript/url_from_safari.scpt
+!appscript/url_from_brave.scpt
+!info.plist
+!README.md
