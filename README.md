@@ -1,7 +1,7 @@
 # gotosakura
 
 ## ざっくり
-amazon で見ている商品を [サクラチェッカー](https://sakura-checker.jp/) を調べる.
+amazon で見ている商品に関する [サクラチェッカー](https://sakura-checker.jp/) のページを開く.
 
 ## 対応ブラウザ
 - Safari
