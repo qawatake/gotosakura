@@ -245,7 +245,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>See https://github.com/qawatake/gotosakura</string>
 	<key>uidata</key>
 	<dict>
 		<key>19B6C0CB-93A0-4C13-BA10-D0A13618DC13</key>
@@ -291,6 +291,10 @@
 			<integer>180</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>v1.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/qawatake/gotosakura</string>
 </dict>
