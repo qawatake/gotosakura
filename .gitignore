@@ -3,6 +3,7 @@
 !main.sh
 !go.mod
 !main.go
+!entity.go
 !main_test.go
 !appscript
 !appscript/frontmost_appname.scpt
