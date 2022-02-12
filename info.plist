@@ -46,6 +46,30 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E16C521-A369-45DF-9CF8-66BD9D9AE13C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A8366E45-3EB3-4A9D-87F8-7A1CEB25F938</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D1BC46E4-7C37-4142-A410-6E57FD962096</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EAF268EB-D8A1-4A17-AA51-CCBA7059DCEE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>35A0D687-B2BB-4D33-9617-88BE54F0E6E6</key>
 		<array>
@@ -150,6 +174,34 @@
 						<key>uid</key>
 						<string>CB231773-9BF4-4E0A-B0F1-66854081E4AE</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Sidekick</string>
+						<key>outputlabel</key>
+						<string>Sidekick</string>
+						<key>uid</key>
+						<string>A8366E45-3EB3-4A9D-87F8-7A1CEB25F938</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Vivaldi</string>
+						<key>outputlabel</key>
+						<string>Vivaldi</string>
+						<key>uid</key>
+						<string>EAF268EB-D8A1-4A17-AA51-CCBA7059DCEE</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -158,6 +210,27 @@
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>19B6C0CB-93A0-4C13-BA10-D0A13618DC13</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>sakura</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>サクラチェッカーを開く</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3F468DA1-36D2-49D0-ADE1-F7D55F144FB4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -183,27 +256,6 @@
 			<string>35A0D687-B2BB-4D33-9617-88BE54F0E6E6</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>sakura</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>サクラチェッカーを開く</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>3F468DA1-36D2-49D0-ADE1-F7D55F144FB4</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -243,6 +295,44 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.pushplaylabs.sidekick</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:link}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9E16C521-A369-45DF-9CF8-66BD9D9AE13C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.vivaldi.Vivaldi</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:link}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D1BC46E4-7C37-4142-A410-6E57FD962096</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>See https://github.com/qawatake/gotosakura</string>
@@ -276,12 +366,26 @@
 			<key>ypos</key>
 			<integer>435</integer>
 		</dict>
+		<key>9E16C521-A369-45DF-9CF8-66BD9D9AE13C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>820</integer>
+			<key>ypos</key>
+			<integer>570</integer>
+		</dict>
 		<key>B48695D9-60A6-448B-A0C3-6FE96D779281</key>
 		<dict>
 			<key>xpos</key>
 			<integer>820</integer>
 			<key>ypos</key>
 			<integer>310</integer>
+		</dict>
+		<key>D1BC46E4-7C37-4142-A410-6E57FD962096</key>
+		<dict>
+			<key>xpos</key>
+			<integer>820</integer>
+			<key>ypos</key>
+			<integer>700</integer>
 		</dict>
 		<key>D829E09D-8080-4477-B25E-333500E1D623</key>
 		<dict>
@@ -294,7 +398,7 @@
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>v1.0.0</string>
+	<string>v1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/qawatake/gotosakura</string>
 </dict>
