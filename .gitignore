@@ -10,6 +10,8 @@
 !appscript/url_from_chrome.scpt
 !appscript/url_from_safari.scpt
 !appscript/url_from_brave.scpt
+!appscript/url_from_sidekick.scpt
+!appscript/url_from_vivaldi.scpt
 !info.plist
 !README.md
 !icon.png
