@@ -7,6 +7,8 @@ amazon で見ている商品に関する [サクラチェッカー](https://saku
 - Safari
 - Google Chrome
 - Brave Browser
+- Vivaldi
+- Sidekick
 
 ## 使い方
 1. Alfred の検索窓に `sakura` と入力する.
